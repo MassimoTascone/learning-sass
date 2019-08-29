@@ -8,20 +8,42 @@ body {
 
 // Testing Nesting
 
+// Variables
+$padding: 20px;
+$paragcolor: rgb(20, 78, 78);
+
+
 main {
-	background-color: white;
+
+	
 
 	h1 {
 		text-align: center;
+		color: white;
 	}
 
-	p {
+	li {
 
-		color: rgb(47, 47, 47);
 		text-align: center;
+		background-color: $paragcolor;
+		padding: $padding;
+		@extend h1 ;
+
+		}
+		font: {
+			family: arial;
+			weight:bold;
+		}
+
 	}
-	
-}
+
+
+
+
+
+
+
+
 
 
 
