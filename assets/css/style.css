@@ -1,5 +1,17 @@
+/* SASS for Learning-Sass page */
 body {
-  background-color: blue;
+  background-color: #ffe2ca;
+}
+
+main {
+  background-color: white;
+}
+
+main h1 {
+  text-align: center;
+}
+
+main p {
   color: white;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,4 +1,21 @@
+/* SASS for Learning-Sass page */
+
+//Testing some Sass 
+
 body {
-	background-color: blue;
-	color: white;
+	background-color: rgb(255, 226, 202);
+}
+
+// Main
+
+main {
+	background-color: white;
+
+	h1 {
+		text-align: center;
+	}
+
+	p {
+		color: white;
+	}
 }
